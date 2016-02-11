@@ -1,0 +1,66 @@
+<ion-view title="Recurring Walks">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="button-bar"></div>
+        <ion-list>
+            <ion-item class="item-divider">Select a walk:</ion-item>
+            <ion-toggle toggle-class="toggle-positive">30 minutes ($20)</ion-toggle>
+            <ion-toggle toggle-class="toggle-positive" name="$20">45 minutes ($25)</ion-toggle>
+            <ion-toggle toggle-class="toggle-positive">60 minutes ($30)</ion-toggle>
+            <form class="list"></form>
+        </ion-list>
+        <form class="list">
+            <label class="item item-select">
+                <span class="input-label">Extra dogs</span>
+                <select>
+                    <option>None</option>
+                    <option>1 extra dog ($3)</option>
+                    <option>2 extra dogs ($6)</option>
+                </select>
+            </label>
+        </form>
+        <ion-list>
+            <ion-item class="item-divider">To occur at approximately:</ion-item>
+            <label class="item item-select">
+                <span class="input-label">Time:</span>
+                <select>
+                    <option>6:00 AM</option>
+                    <option>7:00 AM</option>
+                    <option>8:00 AM</option>
+                    <option>9:00 AM</option>
+                    <option>10:00 AM</option>
+                    <option>11:00 PM</option>
+                    <option>12:00 PM</option>
+                    <option>1:00 PM</option>
+                    <option>2:00 PM</option>
+                    <option>3:00 PM</option>
+                    <option>4:00 PM</option>
+                    <option>5:00 PM</option>
+                    <option>6:00 PM</option>
+                    <option>7:00 PM</option>
+                    <option>8:00 PM</option>
+                    <option>9:00 PM</option>
+                    <option>10:00 PM</option>
+                </select>
+            </label>
+            <label class="item item-select">
+                <span class="input-label">Every:</span>
+                <select>
+                    <option>Day</option>
+                    <option>Sunday</option>
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                    <option>Saturday</option>
+                    <option></option>
+                </select>
+            </label>
+        </ion-list>
+        <form class="list"></form>
+        <form class="list"></form>
+        <a ui-sref="menu.mySchedule" class="button button-positive button-block ">Schedule Recurring Walks!</a>
+        <form class="list"></form>
+        <form class="list"></form>
+    </ion-content>
+</ion-view>

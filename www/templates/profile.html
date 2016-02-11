@@ -1,0 +1,44 @@
+<ion-view title="Profile">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="button-bar">
+            <button class="button button-positive button-block button-small">My Profile</button>
+            <a ui-sref="menu.pupProfile" class="button button-stable button-block button-small">Pup Profile</a>
+        </div>
+        <form class="list">
+            <ion-list></ion-list>
+            <label class="item item-input">
+                <span class="input-label">Name</span>
+                <input type="text" placeholder="John Smith">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Phone</span>
+                <input type="text" placeholder="1 (403) 243-1357">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Email</span>
+                <input type="text" placeholder="jsmith@email.com">
+            </label>
+            <div class="spacer" style="width: 300px; height: 19px;"></div>
+            <label class="item item-input">
+                <span class="input-label">Address</span>
+                <input type="text" placeholder="826 Cantebury Way S.E.">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Address</span>
+                <input type="text" placeholder="T2T-1P1">
+            </label>
+            <label class="item item-select">
+                <span class="input-label">City</span>
+                <select>
+                    <option>Calgary</option>
+                </select>
+            </label>
+            <a ui-sref="billingInformation" class="button button-stable button-block button-small">Edit Credit Card</a>
+            <div class="button-bar">
+                <a ui-sref="menu.lockboxInformation" class="button button-stable button-block button-small">Lockbox Info</a>
+                <a ui-sref="walkHistory" class="button button-stable button-block button-small">Walk History</a>
+            </div>
+        </form>
+        <div class="button-bar"></div>
+    </ion-content>
+</ion-view>
